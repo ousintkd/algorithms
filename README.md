@@ -4,3 +4,4 @@
    2. Palindrome https://github.com/ousintkd/algorithms/blob/master/Palindrome/main.cpp
    3. Insertion Sort https://github.com/ousintkd/algorithms/blob/master/InsertionSort/main.cpp
    4. Selection Sort https://github.com/ousintkd/algorithms/blob/master/selectionSort/main.cpp
+   5. Bubble Sort https://github.com/ousintkd/algorithms/blob/master/bubblesort/main.cpp
