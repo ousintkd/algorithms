@@ -16,9 +16,9 @@ void merge(int arr[],int start, int m, int end)
     int n2 = end-m;
     
     int A1[n1],A2[n2];
+    
     for(int i=0;i<n1;i++) A1[i] = arr[start+i];
     for(int j=0;j<n2;j++) A2[j] = arr[m+j+1];
-    
     
     int i=0, j=0, k=start;
     
@@ -32,13 +32,14 @@ void merge(int arr[],int start, int m, int end)
 }
 
 void mergeSort(int arr[],int start, int end){
-    int m = start + (end-start)/2;
     if(start<end)
     {
+        int m = start + (end-start)/2;
         mergeSort(arr, start, m);
         mergeSort(arr, m+1, end);
+        
+        merge(arr,start,m,end);
     }
-    merge(arr,start,m,end);
 }
 
 void printArray(int arr[], int n)
@@ -49,10 +50,10 @@ void printArray(int arr[], int n)
 
 int main()
 {
-    int arr[]={7,10,100,-4,2,-15,110,-60,5,3};
+    int arr[]={70,-12,110,40,-132,20,52,-15};
     
-    mergeSort(arr, 0, 10);
-    printArray(arr,10);
+    mergeSort(arr, 0, 7);
+    printArray(arr,8);
     
     return 0;
 }
