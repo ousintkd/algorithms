@@ -6,7 +6,7 @@
    3. Bubble Sort https://github.com/ousintkd/algorithms/blob/master/bubblesort/main.cpp
    4. Quick Sort https://github.com/ousintkd/algorithms/blob/master/QuickSort/main.cpp
    5. Merge Sort https://github.com/ousintkd/algorithms/blob/master/mergesort/main.cpp
-      5.1. Merge two sorted arrays https://github.com/ousintkd/algorithms/blob/master/mergesortedarrays/main.cpp
+   6. Merge two sorted arrays https://github.com/ousintkd/algorithms/blob/master/mergesortedarrays/main.cpp
 
 ## Searching
    1. Binary Search https://github.com/ousintkd/algorithms/blob/master/binarysearch/main.cpp
