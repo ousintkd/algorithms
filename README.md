@@ -8,3 +8,4 @@
    6. Merge Sort https://github.com/ousintkd/algorithms/blob/master/mergesort/main.cpp
    7. Merge two sorted arrays https://github.com/ousintkd/algorithms/blob/master/mergesortedarrays/main.cpp
    8. Is there a pair with a given sum? https://github.com/ousintkd/algorithms/blob/master/ispairwithsum/main.cpp
+   9. Binary Search https://github.com/ousintkd/algorithms/blob/master/binarysearch/main.cpp
