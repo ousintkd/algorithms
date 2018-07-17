@@ -16,3 +16,4 @@
 
 ## Other
    1. Is there a pair with a given sum? https://github.com/ousintkd/algorithms/blob/master/ispairwithsum/main.cpp
+   2. Print singly linked list in reverse order : https://github.com/ousintkd/algorithms/blob/master/reverseprintlinkedlist/main.cpp
